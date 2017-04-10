@@ -57,11 +57,9 @@ int main(int argc, const char * argv[]) {
 
     //Exsercies5:
     
-    char string[] = "recieve";
-    replace(string, "ie", "ei");
+    char string[] = "I love you";
+    replace(string, "love", "hate");
     
-    
-
     return 0;
 }
 
