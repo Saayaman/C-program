@@ -1,15 +1,14 @@
 //
 //  getLine.c
-//  macro
+//  pointers
 //
-//  Created by ayako_sayama on 2017-04-10.
+//  Created by ayako_sayama on 2017-04-11.
 //  Copyright © 2017 ayako_sayama. All rights reserved.
 //
 
 #include "getLine.h"
-
 int getLine(char line[], int max){
-
+    
     int nch = 0;
     int a;
     
@@ -35,24 +34,5 @@ int getLine(char line[], int max){
     
     line[nch] = '\0';
     return nch;
-
-}
-
-
-int getCharacter(){
     
-int c;
-c = getchar();
-    
-    
-
-while(c != EOF)
-    
-{
-    putchar(c);
-    printf(" ");
-    c = getchar();
-}
-    return c;
-
 }
