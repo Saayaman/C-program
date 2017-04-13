@@ -5,30 +5,57 @@
 
 #include "getLine.h"
 #include "transaction.h"
+#include "matchLine.h"
+#include "getBalance.h"
+#include "getWord.h"
+#include "reverse.h"
+#include "malloc.h"
+#include "countChars.h"
+#include "replaceLetters.h"
+
 
 int main(int argc, const char * argv[]) {
     
     
-//    Write a program to read lines and print only those containing a certain word. (For now, the word can be a constant string in the program.) The basic pattern (which I have to confess I have parroted exactly from K&R(Textbook file) Sec. 4.1) is
+    // Exercise1
+    
+    //testPointerFunction();
+    //matchLine();
+
+
+    // Exercise2:
+    //getWord();
+    
+    
+    // Exercise3:
+    //reverse();
+    
+    //Exercise4:
+    
+//    checkNullPointer();
+// 
+//        int LEN = 100;
+//        char str[LEN];
+//        char ch = 'd'; // or 68 for ascii
+//        getLine(str, LEN);
+//        printf("%c appears in %s %d times\n", ch, str, countchars_pointer(str, ch));
+//    
+//        printf("%c appears in %s %d times\n", ch, str, countchars(str, ch));
 
     
-    char * paragraph = "I love the sea. \nI love music.\nI hate onions. \nI detest to go out and play in the rain.";
-    char * p = paragraph;
-    
-    char * word = "music";
-    
-    while(*p != '\n')
-          {
-              if(strstr(paragraph, word)){
-                  printf("%s\n", paragraph);
-              }
-            p++;
-          }
+    //Exercise5:
+    //mallocPrac();
     
     
-    
-//    Rewrite the checkbook-balancing program from assignment #4 (exercise 6) to use the getwords function (check the bottom of this page) to make it easy to take the word ``check'' or ``deposit'', and the amount, from a single line.
+    //Exercise6:
+//    char * string = "I love you";
+//    replace(string, "love", "hate");
 
+    
+    //Exercise7:
+    // i couldn't do this one
     
     return 0;
 }
+
+

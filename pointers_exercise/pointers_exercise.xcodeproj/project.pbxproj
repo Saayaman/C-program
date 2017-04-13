@@ -10,6 +10,13 @@
 		7445CFF81E9D91A900DC1D33 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7445CFF71E9D91A900DC1D33 /* main.c */; };
 		7445D0001E9D969100DC1D33 /* transaction.c in Sources */ = {isa = PBXBuildFile; fileRef = 7445CFFE1E9D969100DC1D33 /* transaction.c */; };
 		7445D0041E9D972400DC1D33 /* getLine.c in Sources */ = {isa = PBXBuildFile; fileRef = 7445D0021E9D972400DC1D33 /* getLine.c */; };
+		7445D0691E9DB4CD00DC1D33 /* matchLine.c in Sources */ = {isa = PBXBuildFile; fileRef = 7445D0671E9DB4CD00DC1D33 /* matchLine.c */; };
+		7445D06C1E9DBEE100DC1D33 /* getBalance.c in Sources */ = {isa = PBXBuildFile; fileRef = 7445D06A1E9DBEE100DC1D33 /* getBalance.c */; };
+		7445D06F1E9DBF9D00DC1D33 /* getWord.c in Sources */ = {isa = PBXBuildFile; fileRef = 7445D06D1E9DBF9D00DC1D33 /* getWord.c */; };
+		749C9C131E9EB103001F0DF2 /* reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 749C9C111E9EB103001F0DF2 /* reverse.c */; };
+		749C9C161E9EB725001F0DF2 /* malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 749C9C141E9EB725001F0DF2 /* malloc.c */; };
+		749C9C191E9F1453001F0DF2 /* countChars.c in Sources */ = {isa = PBXBuildFile; fileRef = 749C9C171E9F1453001F0DF2 /* countChars.c */; };
+		749C9C1D1E9F1A9B001F0DF2 /* replaceLetters.c in Sources */ = {isa = PBXBuildFile; fileRef = 749C9C1B1E9F1A9B001F0DF2 /* replaceLetters.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +38,20 @@
 		7445CFFF1E9D969100DC1D33 /* transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transaction.h; sourceTree = "<group>"; };
 		7445D0021E9D972400DC1D33 /* getLine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getLine.c; sourceTree = "<group>"; };
 		7445D0031E9D972400DC1D33 /* getLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getLine.h; sourceTree = "<group>"; };
+		7445D0671E9DB4CD00DC1D33 /* matchLine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = matchLine.c; sourceTree = "<group>"; };
+		7445D0681E9DB4CD00DC1D33 /* matchLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matchLine.h; sourceTree = "<group>"; };
+		7445D06A1E9DBEE100DC1D33 /* getBalance.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getBalance.c; sourceTree = "<group>"; };
+		7445D06B1E9DBEE100DC1D33 /* getBalance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getBalance.h; sourceTree = "<group>"; };
+		7445D06D1E9DBF9D00DC1D33 /* getWord.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getWord.c; sourceTree = "<group>"; };
+		7445D06E1E9DBF9D00DC1D33 /* getWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getWord.h; sourceTree = "<group>"; };
+		749C9C111E9EB103001F0DF2 /* reverse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reverse.c; sourceTree = "<group>"; };
+		749C9C121E9EB103001F0DF2 /* reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverse.h; sourceTree = "<group>"; };
+		749C9C141E9EB725001F0DF2 /* malloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = malloc.c; sourceTree = "<group>"; };
+		749C9C151E9EB725001F0DF2 /* malloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = malloc.h; sourceTree = "<group>"; };
+		749C9C171E9F1453001F0DF2 /* countChars.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = countChars.c; sourceTree = "<group>"; };
+		749C9C181E9F1453001F0DF2 /* countChars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = countChars.h; sourceTree = "<group>"; };
+		749C9C1B1E9F1A9B001F0DF2 /* replaceLetters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = replaceLetters.c; sourceTree = "<group>"; };
+		749C9C1C1E9F1A9B001F0DF2 /* replaceLetters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replaceLetters.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +85,24 @@
 			isa = PBXGroup;
 			children = (
 				7445CFF71E9D91A900DC1D33 /* main.c */,
+				749C9C1B1E9F1A9B001F0DF2 /* replaceLetters.c */,
+				749C9C1C1E9F1A9B001F0DF2 /* replaceLetters.h */,
+				749C9C171E9F1453001F0DF2 /* countChars.c */,
+				749C9C181E9F1453001F0DF2 /* countChars.h */,
+				749C9C111E9EB103001F0DF2 /* reverse.c */,
+				749C9C121E9EB103001F0DF2 /* reverse.h */,
+				7445D06D1E9DBF9D00DC1D33 /* getWord.c */,
+				7445D06E1E9DBF9D00DC1D33 /* getWord.h */,
+				7445D06A1E9DBEE100DC1D33 /* getBalance.c */,
+				7445D06B1E9DBEE100DC1D33 /* getBalance.h */,
+				7445D0671E9DB4CD00DC1D33 /* matchLine.c */,
+				7445D0681E9DB4CD00DC1D33 /* matchLine.h */,
 				7445D0021E9D972400DC1D33 /* getLine.c */,
 				7445D0031E9D972400DC1D33 /* getLine.h */,
 				7445CFFE1E9D969100DC1D33 /* transaction.c */,
 				7445CFFF1E9D969100DC1D33 /* transaction.h */,
+				749C9C141E9EB725001F0DF2 /* malloc.c */,
+				749C9C151E9EB725001F0DF2 /* malloc.h */,
 			);
 			path = pointers_exercise;
 			sourceTree = "<group>";
@@ -130,7 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7445D0001E9D969100DC1D33 /* transaction.c in Sources */,
+				749C9C161E9EB725001F0DF2 /* malloc.c in Sources */,
+				749C9C131E9EB103001F0DF2 /* reverse.c in Sources */,
+				7445D06C1E9DBEE100DC1D33 /* getBalance.c in Sources */,
+				749C9C191E9F1453001F0DF2 /* countChars.c in Sources */,
+				7445D0691E9DB4CD00DC1D33 /* matchLine.c in Sources */,
 				7445D0041E9D972400DC1D33 /* getLine.c in Sources */,
+				7445D06F1E9DBF9D00DC1D33 /* getWord.c in Sources */,
+				749C9C1D1E9F1A9B001F0DF2 /* replaceLetters.c in Sources */,
 				7445CFF81E9D91A900DC1D33 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +302,7 @@
 				7445CFFD1E9D91A900DC1D33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
