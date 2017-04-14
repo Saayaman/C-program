@@ -47,9 +47,32 @@ int main(int argc, const char * argv[]) {
     //mallocPrac();
     
     
-    //Exercise6:
+//    //Exercise6:
+    
+//        char * string = "I love you";
+//        replace(string, "love", "hate");
+
+    
+    char *string = malloc(20 * sizeof(char));
+    strcpy(string, "I love you");
+    replace(string, "love", "hate");
+    free(string);
+    
+//    string[0] = 'I';
+//    string[1] = ' ';
+//    string[2] = 'l';
+//    string[3] = 'o';
+//    string[4] = 'v';
+//    string[5] = 'e';
+//    string[6] = ' ';
+//    string[7] = 'y';
+//    string[8] = 'o';
+//    string[9] = 'u';
+//    string[10] = '\0';
+
+
 //    char * string = "I love you";
-//    replace(string, "love", "hate");
+//    replace_void(string, "love", "hate");
 
     
     //Exercise7:

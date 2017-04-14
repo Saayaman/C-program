@@ -9,10 +9,7 @@
 #include "replaceLetters.h"
 #include <string.h>
 
-
-
-
-int replace(char * string, char * from, char * to){
+int replace(char *string, char from[], char to[]){
     
     printf("%s\n",string);
     
@@ -21,21 +18,56 @@ int replace(char * string, char * from, char * to){
     
     printf("size of word: %lu, size of replacing letters: %lu\n", stringSize, replaceSize);
     
-    char * p = string;
-//    char * toward = to;
-    
-    while (*p != '\0') {
-        
-        if(*p == *from){
+    int jk;
+    char* p1 = from;
+    char* p2 = to;
+    for (jk = 0; jk < stringSize; jk++) {
+        if(*(string+jk) == *p1){
             
-            *p = to;
-            to++;
-            from++;
+            
+            *(string+jk) = *p2;
+            p1++;
+            p2++;
         }
-        p++;
+        
     }
-
-    printf("%s\n",p);
-
+    printf("%s\n",string);
+    
     return 0;
+}
+
+
+void replace_void(char string[], char * from, char * to){
+    
+    char* start;
+    char* p1;
+    char* p2;
+    
+    for(start = string; *start != '\0'; start++ ) {
+        p1 = from;
+        p2 = start;
+        while (*p1 != '\0') {
+            if (*p1 != *p2) {
+                break;
+            }
+            p1++;
+            p2++;
+        
+        }
+        
+        if(*p1 == '\0') {
+
+        
+            for(p1 = to; *p1 != '\0'; p1++) {
+                
+                *start++ = *p1;
+
+                
+            }
+            
+            printf("%s\n",string);
+            return;
+        }
+    }
+    
 }

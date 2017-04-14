@@ -11,5 +11,6 @@
 
 #include <stdio.h>
 int replace(char string[], char from[], char to[]);
+void replace_void(char * string, char * from, char * to);
 
 #endif /* replaceLetters_h */
